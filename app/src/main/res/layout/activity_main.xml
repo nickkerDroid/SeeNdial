@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cntLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/txt7"
+    tools:context=".activities.MainActivity">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_card">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="375dp"
+                android:background="@android:color/transparent"
+                app:contentScrim="@color/purmiray"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                app:toolbarId="@id/toolbarMy">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView12"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/lognn"
+                    app:layout_collapseMode="none" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbarMy"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" >
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/backey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_change_circle_24"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="end"/>
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/admob_banner_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            android:elevation="20dp"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nester"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <GridView
+                android:id="@+id/grdView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="25dp"
+                android:numColumns="2"
+                android:scrollbars="vertical"
+                android:verticalSpacing="25dp"
+                android:nestedScrollingEnabled="true"/>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/purmiray"
+            android:contentDescription="@string/_91"
+            android:src="@drawable/ic_baseline_person_add_24"
+            android:transitionName="example_transition"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/adView"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

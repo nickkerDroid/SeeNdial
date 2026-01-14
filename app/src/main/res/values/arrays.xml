@@ -1,0 +1,32 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="shape_entries">
+        <item>Rectangle(Round corners)</item>
+        <item>Oval</item>
+        <item>Rectangle</item>
+    </string-array>
+
+    <string-array name="shape_values">
+        <item>rectangle_round_corners</item>
+        <item>oval</item>
+        <item>rectangle</item>
+    </string-array>
+
+    <string-array name="border_entries">
+        <item>Black</item>
+        <item>White</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="border_values">
+        <item>black</item>
+        <item>white</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>cyan</item>
+        <item>purple</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewItemImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:strokeWidth="5dp"
+        app:strokeColor="@color/black">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:contentDescription="@string/add_contact"
+            android:scaleType="center" />
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

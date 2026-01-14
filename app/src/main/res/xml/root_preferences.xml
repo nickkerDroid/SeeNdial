@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Contacts" app:icon="@drawable/ic_baseline_contacts_24">
+
+        <ListPreference
+            app:defaultValue="rectangle_round_corners"
+            app:entries="@array/shape_entries"
+            app:entryValues="@array/shape_values"
+            app:key="shape"
+            app:title="Contacts Shape"
+            app:useSimpleSummaryProvider="true"
+            app:allowDividerBelow="true"/>
+
+        <SeekBarPreference
+            app:defaultValue="100"
+            android:max="400"
+            app:min="1"
+            app:key="corner_radius"
+            app:title="Corner Radius"
+            app:showSeekBarValue="true"
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"/>
+
+        <ListPreference
+            app:key="border_color"
+            app:entries="@array/border_entries"
+            app:entryValues="@array/border_values"
+            app:defaultValue="black"
+            app:title="Border Color"
+            app:useSimpleSummaryProvider="true"
+            app:allowDividerAbove="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header" app:icon="@drawable/ic_baseline_sync_24">
+
+        <EditTextPreference
+            app:key="code"
+            app:title="Default Country Code"
+            app:defaultValue="91"
+            app:summary="Default Country Code when you try to add a contact"
+            app:allowDividerBelow="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

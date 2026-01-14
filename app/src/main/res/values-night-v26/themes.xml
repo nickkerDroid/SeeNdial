@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SeeNdial" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purmiray</item>
+        <item name="colorPrimaryVariant">@color/status</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSplashscreenContent">@drawable/probable_splashy</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Theme.SeeNdial.MainActtivity" parent="Theme.MaterialComponents.NoActionBar">
+
+        <item name="colorPrimary">@color/purmiray</item>
+        <item name="colorPrimaryVariant">@color/status</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="DialogAnimatiton">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_up</item>
+        <item name="android:windowExitAnimation">@anim/up_to_bottom</item>
+    </style>
+
+    <style name="MyToastStyleIwant">
+        <item name="stColorBackground">@color/purmiray</item>
+        <item name="stTextColor">@color/black</item>
+        <item name="stStrokeColor">@color/black</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="cornerRadius">3dp</item>
+        <item name="stIconStart">@drawable/ic_baseline_warning_24</item>
+    </style>
+</resources>

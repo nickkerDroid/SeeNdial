@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:enabled="true">
+
+        <item
+            android:id="@+id/feedback"
+            android:title="@string/feedback"
+            android:orderInCategory="5" />
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/about"
+            android:orderInCategory="2" />
+
+        <item
+            android:id="@+id/helpus"
+            android:title="@string/help_us_ad"
+            android:orderInCategory="4" />
+
+        <item
+            android:id="@+id/htu"
+            android:title="@string/how_to_use"
+            android:orderInCategory="1" />
+
+        <item
+            android:id="@+id/settings12"
+            android:title="@string/settings"
+            android:orderInCategory="3"/>
+
+    </group>
+
+</menu>

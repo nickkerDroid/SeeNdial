@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SeeNdial</string>
+    <string name="add_contact">Add contact</string>
+    <string name="please_choose_an_option">Please choose an option</string>
+    <string name="add_manually">Add Manually</string>
+    <string name="add_via_contacts">Add via Contacts</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="_91">+91</string>
+    <string name="delete_contact">Delete Contact?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="about1">Hello, the developer here, this app is built to ease the process of calling for the people who have:-</string>
+    <string name="about2">1. Problem in reading</string>
+    <string name="about3">2. Are not able to read at all</string>
+    <string name="about4">3. Have multiple contacts with same name</string>
+    <string name="about5">This app provides you to call any contact, any number just by a simple touch on their image or photo. If you know someone illiterate, why not be a part of a noble work by informing them about this app.</string>
+    <string name="change_background">Change background</string>
+    <string name="change_bg">Change BG</string>
+    <string name="note_to_change_the_background_click_in_the_area_above_the_add_contact_button">NOTE : To change the background , click in the area above the \'add contact\' button.</string>
+    <string name="feedback">Feedback</string>
+    <string name="help_us_ad">Help us</string>
+    <string name="ad_closed_due_to_misbehaviour">Ad closed due to misbehaviour</string>
+    <string name="how_to_use">Instructions</string>
+    <string name="_1_press">1. Press</string>
+    <string name="button_to_add_a_contact">to add a contact.</string>
+    <string name="_2_click_in_the_area_adjacent_to_add_contact_button_to_change_the_background">2. You can change the background gradient using the toolbar.</string>
+    <string name="_3_you_would_have_to_watch_ads_in_order_to_earn_points">3. You would have to watch ads in order to earn points.</string>
+    <string name="_4_each_ad_would_give_you_20_points_60_points_are_needed_to_give_a_feedback">4. Each ad would give you 20 points, 60 points are needed to give a feedback.</string>
+    <string name="_5_please_avoid_mistakenly_or_unnecessarily_clicking_on_the_ads">5. Please avoid mistakenly or unnecessarily clicking on the ads.</string>
+    <string name="_6_you_would_have_to_save_atleast_1_contact_to_start_earning_points_or_for_the_app_to_remember_your_background">6. You would have to save atleast 1 contact to start earning points or for the app to remember your background.</string>
+    <string name="privacy_policy">* Privacy Policy</string>
+    <string name="terms_and_conditions">* Terms and Conditions</string>
+    <string name="skip">Skip</string>
+    <string name="back">back</string>
+    <string name="next">next</string>
+    <string name="initiate_a_call_with_ease">Initiate a Call with Ease</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="_455">+455</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="loading">Loading&#46;&#46;&#46;</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="donate">Donate via UPI</string>
+    <string name="thanks_for_your_generous_dontaion">Thanks for your generous donation</string>
+    <string name="back_to_home_page">Back to Home page</string>
+    <string name="cancellation_refund_policy">* Cancellation/Refund Policy</string>
+    <string name="contact_us">* Contact Us</string>
+    <string name="the_following_upi_id_is_for_donations">The following upi id is for donations:</string>
+    <string name="nishkarshfortheease_fam">nishkarsh5151@oksbi</string>
+    <string name="donation">DONATE</string>
+    <string name="click_below_to_watch_advertisement">Click below to watch Advertisement:</string>
+    <string name="watch_ad">Watch Ad</string>
+    <string name="_3_you_can_support_me_by_donating_or_watching_ads">3. You can support me by donating or watching Ads.</string>
+    <string name="_4_you_can_visit_the_settings_page_for_further_customization">4. You can visit the Settings page for further customization.</string>
+</resources>
