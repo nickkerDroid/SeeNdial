@@ -14,6 +14,14 @@
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <!-- New Permissions for Location (SOS Feature) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- New Permissions for Billing -->
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
@@ -23,61 +31,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SeeNdial">
+        
         <activity
-            android:name=".activities.HelpActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".activities.MainActivity"
-            android:theme="@style/Theme.SeeNdial.MainActtivity"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".activities.SettingsActivity"
-            android:exported="false"
-            android:parentActivityName=".activities.MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.SeeNdial.MainActtivity"
-            tools:ignore="LockedOrientationActivity">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".activities.WelcomeActivity"
-            android:exported="true"
-            android:parentActivityName=".activities.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".activities.HowtouseActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.SeeNdial.MainActtivity"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".activities.AboutActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.SeeNdial.MainActtivity"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".activities.AddContactActivity"
-            android:exported="false"
-            android:parentActivityName=".activities.MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.SeeNdial.MainActtivity"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".activities.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
+            android:theme="@style/Theme.SeeNdial.MainActtivity"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -85,9 +47,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_id" />
     </application>
 
 </manifest>
