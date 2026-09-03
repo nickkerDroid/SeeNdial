@@ -94,6 +94,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.12.1'
     implementation 'de.hdodenhof:circleimageview:3.1.0' // Keep if needed for legacy XML, though Compose uses Image
     implementation 'com.airbnb.android:lottie:6.6.4' // Or lottie-compose
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
     // Testing
     testImplementation 'junit:junit:4.13.2'
