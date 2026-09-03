@@ -73,12 +73,7 @@ class MainActivity : ComponentActivity(), TextToSpeech.OnInitListener {
                         onContactTap = { user -> speakAndDial(user.uid, user.phoneNum) },
                         onAddContact = {
                             if (users.size >= 9) {
-                                // TODO: Launch Billing Flow for SeeNdial Pro
-                                android.widget.Toast.makeText(
-                                    this@MainActivity,
-                                    "Free limit reached! Upgrade to Pro to add more contacts.",
-                                    android.widget.Toast.LENGTH_LONG
-                                ).show()
+                                startActivity(Intent(this@MainActivity, info.fortheease.seendial.billing.PaywallActivity::class.java))
                             } else {
                                 startActivity(Intent(this@MainActivity, AddContactActivity::class.java))
                             }
